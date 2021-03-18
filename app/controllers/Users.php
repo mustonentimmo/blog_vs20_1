@@ -29,6 +29,7 @@ class Users extends Controller
             if (empty($data['name'])) {
                 $data['name_err'] = 'Please enter the name';
             }
+
             if (empty($data['email'])) {
                 $data['email_err'] = 'Please enter the email';
             } else if (!filter_var($data['email'], FILTER_VALIDATE_EMAIL)) {
