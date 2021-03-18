@@ -2,6 +2,7 @@
 <a href="<?php echo URLROOT ?>/posts" class="btn btn-info">Back</a>
 <div class="card card-body bg-light mt-5">
     <h2>Add Post</h2>
+
     <p>Create post with this form</p>
     <form action="<?php echo URLROOT ?>/posts/add/" method="post">
         <div class="form-group">

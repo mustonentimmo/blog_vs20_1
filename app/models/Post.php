@@ -70,4 +70,5 @@ class Post
         $this->db->bind('content', $data['content']);
         return $this->db->execute() ? true : false;
     }
+
 }

@@ -124,4 +124,5 @@ class Posts extends Controller
             $this->view('posts/add', $data);
         }
     }
+
 }
