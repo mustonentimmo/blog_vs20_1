@@ -18,7 +18,7 @@
                         <span class="invalid-feedback"><?php echo $data['email_err']; ?></span>
                     </div>
                     <div class="form-group">
-                        <label for="password">Password<sup>*</sup></label>
+                        <label for="password">Password <sup>*</sup></label>
                         <input type="password"
                                class="form-control <?php echo (!empty($data['password_err'])) ? 'is-invalid' : ''; ?>"
                                id="password" name="password"

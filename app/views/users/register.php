@@ -4,7 +4,7 @@
             <!-- form register -->
             <div class="card card-outline-secondary mt-5">
                 <div class="card-header">
-                    <h3 class="mb-0">Sign Up</h3>
+                    <h3 class="mb-0">Sign Up </h3>
                     <p class="mt-2">Please fill the fields below to register</p>
                 </div>
                 <div class="card-body">
