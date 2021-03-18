@@ -1,7 +1,6 @@
 <?php
-
-
 class Tag
+
 {
     private $db;
 
@@ -16,4 +15,5 @@ class Tag
         $result = $this->db->getAll();
         return $result;
     }
+
 }
