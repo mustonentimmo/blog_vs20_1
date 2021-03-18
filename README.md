@@ -1,1 +1,2 @@
-# blog_vs20_1
+# PHP ja MySQL blogi
+### Antud projekt on loodud projekteerimisvahendite aine raames 
