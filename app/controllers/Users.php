@@ -104,6 +104,7 @@ class Users extends Controller
                     $data['password_err'] = 'Password is incorrect';
                     $this->view('users/login', $data);
                 }
+
             }
         } else {
             $data = array(

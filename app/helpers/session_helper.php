@@ -18,6 +18,7 @@ function message($name = '', $msg = '', $class = 'alert alert-success')
             echo '<div class="' . $class . '" id="msg">' . $_SESSION[$name] . '</div>';
             unset($_SESSION[$name]);
             unset($_SESSION[$name . '_class']);
+
         }
     }
 }

@@ -17,6 +17,7 @@
                                id="email" name="email" placeholder="Email" value="<?php echo $data['email']; ?>">
                         <span class="invalid-feedback"><?php echo $data['email_err']; ?></span>
                     </div>
+
                     <div class="form-group">
                         <label for="password">Password <sup>*</sup></label>
                         <input type="password"

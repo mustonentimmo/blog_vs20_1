@@ -27,6 +27,7 @@ class User
     }
 
     public function register($data)
+
     {
         $this->db->query('INSERT INTO users SET 
                 name=:name,
@@ -56,4 +57,5 @@ class User
             return false;
         }
     }
+
 }
