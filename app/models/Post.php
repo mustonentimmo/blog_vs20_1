@@ -62,7 +62,6 @@ class Post
         $this->db->bind('content', $data['content']);
         return $this->db->execute() ? true : false;
     }
-
     public function addPost($data)
     {
         $this->db->query('INSERT INTO posts (title, user_id, content) VALUES (:title, :user_id, :content)');

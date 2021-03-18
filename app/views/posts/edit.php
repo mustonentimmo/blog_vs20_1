@@ -17,6 +17,7 @@
                       class="form-control form-control-lg <?php echo (!empty($data['content_err'])) ? 'is-invalid' : ''; ?>"><?php echo $data['content']; ?></textarea>
             <span class="invalid-feedback"><?php echo $data['content_err']; ?></span>
         </div>
+
         <input type="submit" class="btn btn-success" value="Submit">
     </form>
 </div>
