@@ -21,6 +21,7 @@ class User
         if ($this->db->rowCount() > 0) {
             return true;
         } else {
+
             return false;
         }
     }

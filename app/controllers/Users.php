@@ -58,6 +58,7 @@ class Users extends Controller
                     die('Something went wrong');
                 }
             }
+
         } else {
             $data = array(
                 'name' => '',
