@@ -121,6 +121,7 @@ class Users extends Controller
         session_unset();
         session_destroy();
         redirect('users/login');
+
     }
 
     public function createUserSession($user)
