@@ -3,6 +3,7 @@
 <div class="bg-secondary text-white p-2 mb-3">
     Created by <?php echo $data['post']->user_id; ?> at <?php echo $data['post']->created_at; ?>
 </div>
+
 <p><?php echo $data['post']->content; ?></p>
 <a href="<?php echo URLROOT ?>/posts" class="btn btn-info">Back</a>
 <hr>
