@@ -14,7 +14,7 @@
                             <input type="text"
                                    class="form-control <?php echo (!empty($data['name_err'])) ? 'is-invalid' : ''; ?>"
                                    id="name" name="name" placeholder="Full name" value="<?php echo $data['name']; ?>">
-                            <span class="invalid-feedback"><?php echo $data['name_err']; ?></span>
+                            <span class="invalid-feedback" ><?php echo $data['name_err']; ?></span>
                         </div>
                         <div class="form-group">
                             <label for="email">Email<sup>*</sup></label>
