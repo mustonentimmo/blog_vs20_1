@@ -1,6 +1,5 @@
 <?php
 
-
 class Tags extends Controller
 {
     public function __construct()
