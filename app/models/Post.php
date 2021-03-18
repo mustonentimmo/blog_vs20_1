@@ -31,7 +31,6 @@ class Post
         $this->db->bind('id', $id);
         return $post = $this->db->getOne();
     }
-
     public function getPostsByTagId($id)
     {
         $this->db->query('SELECT *,

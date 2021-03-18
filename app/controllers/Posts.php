@@ -116,6 +116,7 @@ class Posts extends Controller
             } else {
                 $this->view('posts/add', $data);
             }
+
         } else {
             $data = [
                 'title' => '',
