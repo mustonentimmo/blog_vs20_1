@@ -72,7 +72,6 @@ class Users extends Controller
             );
         }
         $this->view('users/register', $data);
-
     }
 
     public function login()
