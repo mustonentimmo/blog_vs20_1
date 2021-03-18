@@ -116,6 +116,7 @@ class Users extends Controller
         $this->view('users/login', $data);
     }
 
+
     public function logout()
     {
         session_unset();

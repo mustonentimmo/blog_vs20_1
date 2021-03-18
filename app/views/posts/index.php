@@ -1,7 +1,7 @@
 <?php require_once APPROOT . '/views/inc/header.php'; ?>
 <?php message('post_message'); ?>
-<div class="row mb-3">
-    <div class="col-md-6">
+<div class="row mb-2">
+    <div class="col-md-6>
         <h1>Posts</h1>
     </div>
     <?php if (isset($_SESSION['user_id'])): ?>
