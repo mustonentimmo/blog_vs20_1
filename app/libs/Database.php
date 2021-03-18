@@ -1,6 +1,5 @@
 <?php
 
-
 class Database
 {
     private $host = DB_HOST;
@@ -12,9 +11,6 @@ class Database
     private $error;
     private $stmt;
 
-    /**
-     * Database constructor.
-     */
     public function __construct()
     {
         $dsn = 'mysql:host='.$this->host.';dbname='.$this->dbname;
