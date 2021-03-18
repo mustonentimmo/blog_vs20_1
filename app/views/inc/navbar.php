@@ -11,7 +11,7 @@
                     <a href="<?php echo URLROOT; ?>" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="<?php echo URLROOT; ?>/tags" class="nav-link">Tags</a>
+                    <a href="<?php echo URLROOT; ?>/tags" class="nav-link">Tag</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
